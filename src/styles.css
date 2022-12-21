@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.phone {
+  border: 2px solid red;
+  width: 255px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.phone-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.store-desc {
+  width: 350px;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 6px auto;
+}
